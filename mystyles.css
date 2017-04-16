@@ -1,0 +1,10 @@
+
+.votes span.counter {
+	clear: both;
+	display: inline-block;
+	width: 43.5px;
+	height: 20px;
+	margin: 0.5px;
+	background-color: #444;
+	border-radius: 2px;
+}

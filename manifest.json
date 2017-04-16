@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "OldKwejk",
+  "description": "Wyświetla liczbę plusów i minusów",
+  "version": "1.0",
+  
+  "icons": { "16": "16icon.png",
+			 "48": "48icon.png",
+			"128": "128icon.png" },
+
+  "permissions": [
+    "tabs", "https://kwejk.pl/*"
+  ],
+  
+  "content_scripts": [{
+    "css": ["mystyles.css"],
+	"js" : ["script.js"],
+    "matches": ["https://kwejk.pl/*"]
+  }]
+}
